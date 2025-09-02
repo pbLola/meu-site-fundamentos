@@ -15,5 +15,54 @@
       <h1>Lohanne Castro Oliveira - Página Pessoal</h1>
       <p>Olá! Essa é a minha primeira página feita apenas com HTML semântico</p>
     </header>
+    <main>
+      <section aria-labelledby="sobre-titulo">
+        <h2 id="sobre-titulo">Sobre mim</h2>
+        <p>
+          Sou uma pessoa curiosa aprendendo desenvolvimento frontend sozinha.
+          Esse projeto foi criado para praticar a estrutura semântica HTML.
+        </p>
+        <figure>
+          <img
+            src="img/perfil.jpg"
+            alt="selfie da autora da página, sorrindo em um carro de fundo."
+          />
+          <figcaption>Minha foto de perfil</figcaption>
+        </figure>
+      </section>
+      <section aria-labelledby="interesses-curriculo">
+        <h2 id="interesses-titulo">Interesses</h2>
+        <ul>
+          <li>HTML e semântica</li>
+          <li>CSS e design de interfaces</li>
+          <li>Acessibilidade na Web</li>
+          <li>Leitura e escrita</li>
+          <li>Aprender algo novo todo dia</li>
+        </ul>
+      </section>
+      <section aria-labelledby="links-titulo">
+        <h2 id="links-titulo">Links</h2>
+        <p>
+          Visite meu perfil no
+          <a
+            href="https://github.com/pbLola/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          para acompanhar minha evolução.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <small
+        >© <span id="ano-atual"></span> Lohanne Castro Oliveira. Todos os
+        direitos reservados
+      </small>
+    </footer>
+    <script>
+      document.getElementById("ano-atual").textContent =
+        new Date().getFullYear()
+    </script>
   </body>
 </html>
