@@ -12,6 +12,12 @@ Abra o arquivo `index.html` no navegador.
 - `css/styles.css`: arquivo de estilos (opcional neste nível).
 - `img/perfil.jpg`: imagem de perfil (placeholder).
 
+## PDFs
+
+Todos os PDFs relacionados a este projeto estão na pasta `docs/`:
+
+- [Minha Primeira Página Pessoal (Fundamentos)](docs/guia-projetoP1N1.pdf)
+
 ## Requisitos atendidos
 
 - [x] `<!doctype html>` e `lang="pt-BR"`
